@@ -71,3 +71,15 @@ npm run build
 
 
 
+
+### Remotion重构
+
+项目已引入 [Remotion](https://www.remotion.dev/) 用于视频渲染，原有的 typeMonkey 字幕特效在 `src/remotion` 中通过 React 组件封装。
+
+```bash
+# 预览视频
+npm run preview
+
+# 导出视频
+npm run render TypeMonkey out.mp4
+```

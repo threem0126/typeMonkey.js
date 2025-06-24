@@ -6,10 +6,17 @@
   "scripts": {
     "gulp": "./node_modules/.bin/gulp",
     "dev": "gulp",
-    "build": "gulp build"
+    "build": "gulp build",
+    "preview": "remotion preview",
+    "render": "remotion render"
   },
   "author": "nostar",
   "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^3.3.2"
+  },
   "devDependencies": {
     "babel-preset-es2015": "^6.9.0",
     "browser-sync": "^2.13.0",
