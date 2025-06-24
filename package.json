@@ -6,7 +6,9 @@
   "scripts": {
     "gulp": "./node_modules/.bin/gulp",
     "dev": "gulp",
-    "build": "gulp build"
+    "build": "gulp build",
+    "preview": "remotion preview",
+    "render": "remotion render"
   },
   "author": "nostar",
   "license": "ISC",
@@ -40,5 +42,10 @@
     "imagemin-pngquant": "^5.0.0",
     "node-sass": "^4.9.3",
     "proxy-middleware": "^0.15.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^3.3.79"
   }
 }
