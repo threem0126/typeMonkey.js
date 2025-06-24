@@ -328,3 +328,8 @@ class TypeMoneky {
     })()
   }
 }
+
+// Support usage as a module in modern build systems
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = TypeMoneky;
+}
