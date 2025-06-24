@@ -328,3 +328,5 @@ class TypeMoneky {
     })()
   }
 }
+
+export default TypeMoneky;
